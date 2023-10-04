@@ -191,3 +191,31 @@ body{
     color: rgb(0, 0, 0);
    
 }
+
+
+
+@media only screen and (max-width: 450px) {
+    .heading{
+        width: 300px;
+    }
+    .app{
+        width: 350px;
+    }
+    body{
+        background-image: url('red-cle.png');
+        background-repeat: no-repeat;
+        background-size:cover;
+        background-color: rgba(63, 13, 23, 0.952);
+        background-position: center;
+        width: 100%;
+        height: 100vh;
+        text-align: center;
+        color: rgb(8, 0, 0);
+        padding: 20px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        position: relative;
+        top: -70px;
+    }
+  }
